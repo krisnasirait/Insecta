@@ -2,8 +2,20 @@
     <!-- Base application theme. -->
     <style name="Base.Theme.Insecta" parent="Theme.Material3.DayNight.NoActionBar">
         <!-- Customize your light theme here. -->
-        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <!-- Customize your light theme here. -->
+        <item name="colorPrimary">@color/green_dark</item>
+
+        <!-- Status bar color -->
+        <item name="android:statusBarColor">@color/blue_calm</item>
     </style>
 
     <style name="Theme.Insecta" parent="Base.Theme.Insecta" />
+
+    <style name="Theme.Splash" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowFullscreen">true</item>
+    </style>
+
+    <style name="App.Custom.Indicator" parent="Widget.Material3.BottomNavigationView.ActiveIndicator">
+        <item name="android:color">@color/blue_calm</item>
+    </style>
 </resources>
