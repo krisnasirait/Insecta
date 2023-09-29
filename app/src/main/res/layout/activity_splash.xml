@@ -4,8 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".SplashActivity"
-    android:background="#14471E">
+    tools:context=".presentation.activity.SplashActivity"
+    android:background="@color/dark_primary_color">
 
     <com.airbnb.lottie.LottieAnimationView
         android:id="@+id/lvLogo"
@@ -24,7 +24,7 @@
         android:layout_height="wrap_content"
         android:textSize="40sp"
         android:text="@string/app_name"
-        android:textColor="@color/white"
+        android:textColor="@color/text_icons"
         android:fontFamily="@font/poppins_bold"
         app:layout_constraintTop_toBottomOf="@id/lvLogo"
         app:layout_constraintStart_toStartOf="parent"

@@ -3,10 +3,10 @@
     <style name="Base.Theme.Insecta" parent="Theme.Material3.DayNight.NoActionBar">
         <!-- Customize your light theme here. -->
         <!-- Customize your light theme here. -->
-        <item name="colorPrimary">@color/green_dark</item>
+        <item name="colorPrimary">@color/dark_primary_color</item>
 
         <!-- Status bar color -->
-        <item name="android:statusBarColor">@color/blue_calm</item>
+        <item name="android:statusBarColor">@color/primary_color</item>
     </style>
 
     <style name="Theme.Insecta" parent="Base.Theme.Insecta" />
@@ -16,6 +16,6 @@
     </style>
 
     <style name="App.Custom.Indicator" parent="Widget.Material3.BottomNavigationView.ActiveIndicator">
-        <item name="android:color">@color/blue_calm</item>
+        <item name="android:color">@color/primary_color</item>
     </style>
 </resources>

@@ -7,17 +7,17 @@
 
     <fragment
         android:id="@+id/menu_home"
-        android:name="com.insecta.edu.HomeFragment"
+        android:name="com.insecta.edu.presentation.fragment.HomeFragment"
         android:label="fragment_home"
         tools:layout="@layout/fragment_home" />
     <fragment
         android:id="@+id/menu_info"
-        android:name="com.insecta.edu.InfoFragment"
+        android:name="com.insecta.edu.presentation.fragment.InfoFragment"
         android:label="fragment_info"
         tools:layout="@layout/fragment_info" />
     <fragment
         android:id="@+id/menu_usrguide"
-        android:name="com.insecta.edu.UserGuideFragment"
+        android:name="com.insecta.edu.presentation.fragment.UserGuideFragment"
         android:label="fragment_user_guide"
         tools:layout="@layout/fragment_user_guide" />
 </navigation>

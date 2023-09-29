@@ -6,26 +6,27 @@ import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
 import com.bumptech.glide.load.engine.DiskCacheStrategy
-import com.insecta.edu.data.LessonsItem
+import com.insecta.edu.data.model.DetailLessonItem
+import com.insecta.edu.data.model.LessonItem
 import com.insecta.edu.databinding.ItemMateriBinding
 
 class LessonAdapter(
     private val itemClickListener: OnItemClickListener
 ) : RecyclerView.Adapter<LessonAdapter.LessonViewHolder>() {
 
-    private val itemList = mutableListOf<LessonsItem>()
+    private val itemList = mutableListOf<LessonItem>()
 
     inner class LessonViewHolder(private val binding: ItemMateriBinding) :
         RecyclerView.ViewHolder(binding.root) {
-        fun bind(item: LessonsItem) {
+        fun bind(item: LessonItem) {
             binding.apply {
                 tvTitle.text = item.lessonTitle
                 Glide.with(root)
-                    .load(item.lessonImage)
+                    .load(item.lessonImages)
                     .diskCacheStrategy(DiskCacheStrategy.ALL)
                     .into(ivImage)
                 root.setOnClickListener {
-                    itemClickListener.onItemUserListClicked(item.lessonId)
+                    itemClickListener.onItemClicked(item.lessonId)
                 }
             }
         }
@@ -50,13 +51,13 @@ class LessonAdapter(
     }
 
     @SuppressLint("NotifyDataSetChanged")
-    fun setData(data: List<LessonsItem>) {
+    fun setData(data: List<LessonItem>) {
         itemList.clear()
         itemList.addAll(data)
         notifyDataSetChanged()
     }
 
     interface OnItemClickListener {
-        fun onItemUserListClicked(lessonId: String)
+        fun onItemClicked(lessonId: String)
     }
 }

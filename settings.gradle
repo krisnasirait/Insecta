@@ -13,4 +13,8 @@ dependencyResolutionManagement {
     }
 }
 rootProject.name = "Insecta"
-include ':app'
+include ':app', ':ux', ':sceneform'
+
+
+project(':sceneform').projectDir = new File('sceneformsrc/sceneform')
+project(':ux').projectDir = new File('sceneformux/ux')

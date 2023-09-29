@@ -4,15 +4,16 @@ plugins {
     id 'kotlin-android'
     id 'kotlin-parcelize'
     id 'kotlin-kapt'
+    id 'com.google.gms.google-services'
 }
 
 android {
     namespace 'com.insecta.edu'
-    compileSdk 33
+    compileSdk 34
 
     defaultConfig {
         applicationId "com.insecta.edu"
-        minSdk 24
+        minSdk 29
         targetSdk 33
         versionCode 1
         versionName "1.0"
@@ -36,6 +37,7 @@ android {
     buildFeatures {
         viewBinding = true
     }
+
 }
 
 dependencies {
@@ -56,4 +58,10 @@ dependencies {
     //Glide
     implementation 'com.github.bumptech.glide:glide:4.15.0'
     annotationProcessor 'com.github.bumptech.glide:compiler:4.15.0'
+
+    //firebase
+    implementation platform('com.google.firebase:firebase-bom:32.1.0')
+
+    //sceneview
+    implementation 'io.github.sceneview:arsceneview:0.9.8'
 }
