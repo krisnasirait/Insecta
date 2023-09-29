@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">Insecta</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="serangga_content">
+        Serangga adalah binatang kecil yang memiliki kaki enam dan merupakan salah satu jenis binatang tertua di dunia yang muncul lebih dari 400 juta tahun yang lalu sebelum manusia muncul. Serangga – serangga yang ditemukan terjebak di dalam getah lengket yang ada pada pepohonan, gumpalan tanah yang keras dan juga bebatuan. Serangga memiliki banyak sekali karakterisktik, berikut adalah karakteristik dari hewan serangga:\n\na. Tubuh serangga terbagi menjadi 3 bagian yaitu ada bagian kepala (caput), dada (thorax), dan perut (abdomen).\nb. Pada masing – masing bagian memiliki aanggotanya sendiri seperti pada kepala terdapat sepasang antena dan juga mata yang mana biasanya mata pada serangga berjumlah tunggal ataupun majemuk. Di bagian dada terdapat kaki yang berjimlah 3 pasang dan dua buah pasang sayap, tetapi ada juga beberapa serangga yang tidak memiliki sayap.\nc. Serangga memiliki mulut yang fungsinya untuk megunyah, menjilat, menggigit dan menghisap.\nd. Alat kelamin pada serangga antara jantan dan betinya letaknya terpisah dan pembuahan yang terjadi pada serangga dilakukan secara internal.\ne. Sistem pernafasan pada serangga melalui trakea.\nf. Sistem peredaran darah pada seranga adalah sistem peredaran darah yang terbuka.\ng. Bentuk dari struktur sistem pencernaan dari serangga adalah berbetuk tabung.\nh. Proses metamorfosis pada serangga dari telur hingga dewasa terbagi ke dalam 2 jenis, yaitu metamorfosis sempurna dan tidak sempurna.\n</string>
+    <string name="list_materi">List Materi</string>
 </resources>

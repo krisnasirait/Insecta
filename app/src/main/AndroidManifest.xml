@@ -2,6 +2,23 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools">
 
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <uses-feature
+        android:glEsVersion="0x00030000"
+        android:required="true" />
+
+    <uses-feature
+        android:name="android.hardware.camera.ar"
+        android:required="true" />
+
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="true" />
+
+
     <application
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
@@ -12,9 +29,22 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Insecta"
         tools:targetApi="31">
+        <meta-data
+            android:name="com.google.ar.core"
+            android:value="optional" />
         <activity
-            android:name=".MainActivity"
-            android:exported="true">
+            android:name=".presentation.dialog.DialogFullscreenImage"
+            android:exported="false" />
+        <activity
+            android:name=".presentation.activity.DetailLessonActivity"
+            android:exported="false" />
+        <activity
+            android:name=".presentation.activity.MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".presentation.activity.SplashActivity"
+            android:exported="true"
+            android:theme="@style/Theme.Splash">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

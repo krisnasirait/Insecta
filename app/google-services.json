@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "684164676898",
+    "project_id": "insecta-1e875",
+    "storage_bucket": "insecta-1e875.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:684164676898:android:cc6d96200411a72915b97b",
+        "android_client_info": {
+          "package_name": "com.insecta.edu"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "684164676898-8eqd0j50249oqnckcve1f40ebg8ahmol.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.insecta.edu",
+            "certificate_hash": "e393833e5a8b5fe8a50074142b76995eb7bec0b3"
+          }
+        },
+        {
+          "client_id": "684164676898-n4805kbbqlr696ejvjfiths1ob7s8kv0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDLz_2OubunktOhyNk9dOzC55Itje1pCeI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "684164676898-n4805kbbqlr696ejvjfiths1ob7s8kv0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
